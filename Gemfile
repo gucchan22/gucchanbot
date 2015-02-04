@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'json'
+gem 'nokogiri'
+gem 'sinatra'
+gem 'slackbotsy'
+gem 'amazon-ecs'
