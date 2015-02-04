@@ -17,7 +17,7 @@ class Disassembler
             elsif bytes == 3
               bink << op << " "<< byte_arr[i+1] << " " << byte_arr[i+2]
             end
-            @result << "#{sprintf('%#010x',@byte_counter)}: #{bink} #{opcode[:opcode].downcase}"
+            @result << ".data:#{sprintf('%#010x',@byte_counter)}: #{bink} #{opcode[:opcode].downcase}"
             
             j = 2
             value = ""
